@@ -4,9 +4,10 @@ import werkzeug
 import boto3
 from uuid import uuid4
 
-AWS_ACCESS_KEY_ID = 'AKIA243KINZ64ZOJSI4G'
-AWS_SECRET_ACCESS_KEY = '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'
-bucket = 'digital-museum'
+#delete this before commit
+AWS_ACCESS_KEY_ID = #insert id here
+AWS_SECRET_ACCESS_KEY = #insert key here
+bucket = #insert bucket here
 
 app = Flask(__name__)
 api = Api(app)
